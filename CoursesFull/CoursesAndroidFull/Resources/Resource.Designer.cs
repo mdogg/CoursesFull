@@ -45,7 +45,13 @@ namespace CoursesAndroidFull
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int connelBomb = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int jimmyntheslide = 2130837506;
 			
 			static Drawable()
 			{
@@ -53,6 +59,34 @@ namespace CoursesAndroidFull
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int buttonNext = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int buttonPrev = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int imageCourse = 2131034114;
+			
+			// aapt resource value: 0x7f050004
+			public const int textDescription = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int textTitle = 2131034115;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
