@@ -9,6 +9,7 @@ namespace CoursesIOSFull
     public class AppDelegate : UIApplicationDelegate
     {
         // class-level declarations
+        CourseFullViewController viewController;
 
         public override UIWindow Window
         {
@@ -22,7 +23,8 @@ namespace CoursesIOSFull
             Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
             // If you have defined a root view controller, set it here:
-            // Window.RootViewController = myViewController;
+            viewController = new CourseFullViewController();
+            Window.RootViewController = viewController;
 
             // make the window visible
             Window.MakeKeyAndVisible();

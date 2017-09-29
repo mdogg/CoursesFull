@@ -90,6 +90,11 @@
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <InterfaceDefinition Include="CourseFullViewController.xib" />
+    <Compile Include="CourseFullViewController.cs" />
+    <Compile Include="CourseFullViewController.designer.cs">
+      <DependentUpon>CourseFullViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
